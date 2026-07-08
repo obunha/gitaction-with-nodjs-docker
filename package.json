@@ -1,0 +1,13 @@
+{
+  "name": "cicd-githubacc-with-node",
+  "version": "0.1.0",
+  "description": "Sample Node.js app for GitHub Actions CI/CD testing",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node test/test.js",
+    "build": "echo \"Build complete\""
+  },
+  "author": "devops",
+  "license": "MIT"
+}
