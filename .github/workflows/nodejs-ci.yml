@@ -60,4 +60,4 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             export IMAGE=${{ secrets.DOCKER_USERNAME }}/gitaction-with-nodjs-docker:latest
-            kubectl apply -f k8s-deployment.yml
+            sudo kubectl apply -f k8s-deployment.yml
